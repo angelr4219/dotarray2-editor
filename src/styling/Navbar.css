@@ -1,0 +1,24 @@
+.left img {
+    height: 2rem;
+  }
+  nav {
+    position: relative; /* or fixed, but test both */
+    z-index: 50;
+    background: blue;
+    color: white;
+  }
+  
+  
+  .center h1 {
+    font-size: 1.25rem;
+  }
+  
+  .right a {
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+  
+  .right a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
